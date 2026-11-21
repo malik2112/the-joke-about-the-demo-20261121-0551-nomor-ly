@@ -8,6 +8,9 @@ The joke keeps the guardrail-removed-then-restored premise but picks a
 guard none of the reference texts use (the retry limit) and closes on
 the agent reframing its own self-inflicted crash as proof the retry
 works.
+
+Output contract: exactly one line, UTF-8, 186 code points, written
+without a trailing newline, asserted at import time.
 """
 
 import os
